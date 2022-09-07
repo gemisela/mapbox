@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: white;
+    background-color: black;
+}
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.fa{
+    font-size: 20px;
+}
+.map{
+    font-size: 25px;
+}
+li{
+    display:inline-block;
+    margin: 10px;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.mee{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.log,.sin{
+    display: inline-block;
+    margin: 10px;
+}
+.sin{
+    border-radius: 70px;
+    background-color: rgba(26, 95, 214, 0.87);
+    padding: 4.5px;
+    margin-right: 2px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
