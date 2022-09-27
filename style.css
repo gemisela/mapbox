@@ -38,10 +38,23 @@ li{
     margin: 10px;
 }
 .sin{
-    border-radius: 70px;
+    /* border-radius: 70px;
     background-color: rgba(26, 95, 214, 0.87);
     padding: 4.5px;
-    margin-right: 2px;
+    margin-right: 2px; */
+
+    padding: 8px 14px;
+    background:#007afc;
+    margin-top: -10px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    left: 10px;
+    margin-top: 4.5px;
+    color: #ffffff;
+}
+.sin:hover{
+    background: #007afc;
+    transition: ease-out;
 }
 a{
     text-decoration: none;
@@ -57,4 +70,87 @@ a{
     color: rgb(87, 122, 135);
     font-size: 25px;
     padding: 20px;
+}
+.start{
+    font-size: 30px;
+    background: #007afc;
+    width: 300px;
+    padding: 12px 20px;
+    margin: 0px 0px 48px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+#article{
+   display: flex;
+   justify-content: center;
+}
+.mobile{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.trus{
+    text-align: center;
+}
+.view{
+    text-align: center;
+    color: #007afc;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+}
+.png{
+    margin-top: 120px;
+}
+.mapb{
+    color: rgb(87, 122, 135);
+    font-size: 20px;
+    
+    font-family: "cera pro", "Trebuchet MS", sans-serif;
+    margin-left: 100px;
+}
+#nav{
+  
+    margin-left: 130px;
+    font-size: 50px;
+}
+#p{
+    margin-left: 110px;
+    border: 25px;
+    border-radius: 25px;
+    background: #007afc;
+    width: 200px;
+    padding: 10px 12px;
+    text-align: center;
+}
+.trois{
+    display: flex;
+    justify-content: space-around;
+}
+.ta{
+   font-size: 50px;
+   padding:50px;
+}
+.p{
+    color: rgb(87, 122, 135);
+    font-size: 20px;
+    padding: 20px;
+    font-family: "cera pro", "Trebuchet MS", sans-serif;
+}
+.cinq{
+    display: flex;
+    justify-content: space-between;
+}
+.all{
+    margin-top: 120px;
 }

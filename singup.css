@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+.partie1{
+    padding: 30px 40px 30px;
+    width: 400px;
+    color: white;
+   background-image: url(images/images.jfif);
+}
+.partie2{
+    padding: 25px;
+    width: 1000px;
+   
+    /* margin-right: 105px; */
+    justify-content: center;
+}
+.head{
+    display: flex;
+}
